@@ -1,0 +1,32 @@
+{
+  "wallet_address": "2Z5CICE4XCUQCOZDOZHU3WD4PKNYQIKJJFRKVMZ5G4FJFFZ7L7AH4EN7TY",
+  "asset_id": 2699078351,
+  "nfd": "dystopia.algo",
+  "start_date": "2026-01-16T00:00:00Z",
+  "fetch_timestamp": "2026-01-28T18:51:41.769390+00:00",
+  "account_info": {
+    "address": "2Z5CICE4XCUQCOZDOZHU3WD4PKNYQIKJJFRKVMZ5G4FJFFZ7L7AH4EN7TY",
+    "balance_algo": 11.142181,
+    "total_assets": 49,
+    "total_apps_opted_in": 2,
+    "created_apps": 3,
+    "round": 57867184,
+    "asset_balance": 63749,
+    "asset_frozen": false
+  },
+  "all_transactions_stats": {
+    "total_transactions": 14,
+    "incoming": 6,
+    "outgoing": 3,
+    "total_received_algo": 1.4e-05,
+    "total_sent_algo": 330.0,
+    "total_fees": 0.015,
+    "transaction_types": {
+      "axfer": 6,
+      "pay": 3,
+      "appl": 5
+    }
+  },
+  "total_transactions": 14,
+  "asset_transactions_count": 6
+}

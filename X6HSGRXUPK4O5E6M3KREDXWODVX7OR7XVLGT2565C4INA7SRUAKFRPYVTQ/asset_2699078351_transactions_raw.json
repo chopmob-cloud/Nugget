@@ -1,0 +1,28 @@
+[
+  {
+    "asset-transfer-transaction": {
+      "amount": 0,
+      "asset-id": 2699078351,
+      "close-amount": 0,
+      "receiver": "X6HSGRXUPK4O5E6M3KREDXWODVX7OR7XVLGT2565C4INA7SRUAKFRPYVTQ"
+    },
+    "close-rewards": 0,
+    "closing-amount": 0,
+    "confirmed-round": 57864382,
+    "fee": 1000,
+    "first-valid": 57864380,
+    "genesis-hash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+    "genesis-id": "mainnet-v1.0",
+    "id": "ZT4QAXWT324MGJSRLW5EP2KK7KFCTCFP7FMBXZHQXMC4COONUD5Q",
+    "intra-round-offset": 37,
+    "last-valid": 57865380,
+    "receiver-rewards": 0,
+    "round-time": 1769618409,
+    "sender": "X6HSGRXUPK4O5E6M3KREDXWODVX7OR7XVLGT2565C4INA7SRUAKFRPYVTQ",
+    "sender-rewards": 0,
+    "signature": {
+      "sig": "tBLUhhZP1jgJH2tQLdrxy79iDpU9CMj0rJ/91uslDXTUU8lxwAodY2cVTRUgPQU6wxWBFdXJlAjn3FHFbVy9Ag=="
+    },
+    "tx-type": "axfer"
+  }
+]

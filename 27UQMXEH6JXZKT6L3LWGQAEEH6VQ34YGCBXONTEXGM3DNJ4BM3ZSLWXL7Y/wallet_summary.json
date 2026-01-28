@@ -1,0 +1,32 @@
+{
+  "wallet_address": "27UQMXEH6JXZKT6L3LWGQAEEH6VQ34YGCBXONTEXGM3DNJ4BM3ZSLWXL7Y",
+  "asset_id": 2699078351,
+  "nfd": "No NFD",
+  "start_date": "2026-01-16T00:00:00Z",
+  "fetch_timestamp": "2026-01-28T18:52:34.885257+00:00",
+  "account_info": {
+    "address": "27UQMXEH6JXZKT6L3LWGQAEEH6VQ34YGCBXONTEXGM3DNJ4BM3ZSLWXL7Y",
+    "balance_algo": 0.885528,
+    "total_assets": 3,
+    "total_apps_opted_in": 1,
+    "created_apps": 1,
+    "round": 57867203,
+    "asset_balance": 0,
+    "asset_frozen": false
+  },
+  "all_transactions_stats": {
+    "total_transactions": 14,
+    "incoming": 9,
+    "outgoing": 3,
+    "total_received_algo": 2.000055,
+    "total_sent_algo": 6253.131016,
+    "total_fees": 0.065,
+    "transaction_types": {
+      "pay": 10,
+      "appl": 2,
+      "axfer": 2
+    }
+  },
+  "total_transactions": 14,
+  "asset_transactions_count": 2
+}

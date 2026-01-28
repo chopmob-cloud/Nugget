@@ -1,0 +1,31 @@
+{
+  "wallet_address": "ZZ33E7FV5POGBZWMADNQSZT6I6PXRDTUAWEDGDYPFJDTZMOQZW7PJNVORE",
+  "asset_id": 2699078351,
+  "nfd": "algo.barb.algo",
+  "start_date": "2026-01-16T00:00:00Z",
+  "fetch_timestamp": "2026-01-28T18:48:58.647291+00:00",
+  "account_info": {
+    "address": "ZZ33E7FV5POGBZWMADNQSZT6I6PXRDTUAWEDGDYPFJDTZMOQZW7PJNVORE",
+    "balance_algo": 160.837322,
+    "total_assets": 988,
+    "total_apps_opted_in": 119,
+    "created_apps": 26,
+    "round": 57867126,
+    "asset_balance": 0,
+    "asset_frozen": false
+  },
+  "all_transactions_stats": {
+    "total_transactions": 45,
+    "incoming": 35,
+    "outgoing": 10,
+    "total_received_algo": 2.8e-05,
+    "total_sent_algo": 260.0,
+    "total_fees": 0.043,
+    "transaction_types": {
+      "axfer": 39,
+      "pay": 6
+    }
+  },
+  "total_transactions": 45,
+  "asset_transactions_count": 3
+}
