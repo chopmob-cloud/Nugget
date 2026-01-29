@@ -1,3 +1,4 @@
+```mermaid
 flowchart LR
     
     DIST["ZVLRVYQSLJNVFMOIOKT35XH5SNQG45IVFMLLRFLHDQJQA5TO5H3SO4TVDQ<br/>Distribution Wallet<br/>(NUGGET Source)"]
@@ -13,3 +14,4 @@ flowchart LR
     style DIST fill:#ffd700
     style WALLET fill:#90EE90
     style RECIPIENT fill:#87CEEB
+```
