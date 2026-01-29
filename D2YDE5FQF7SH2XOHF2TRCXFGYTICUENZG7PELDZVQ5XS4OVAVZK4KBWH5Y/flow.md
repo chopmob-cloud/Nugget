@@ -1,44 +1,36 @@
-flowchart TD
-  %% Dataset-scoped: only the 5 txns provided in the pasted JSON
+```mermaid
+flowchart LR
 
-  %% Primary wallet
-  W_D2Y["WALLET\nD2YDE5...WH5Y"]
+%% =========================
+%% Wallet nodes
+%% =========================
+D2Y[D2YDE5FQF7SH2XOHF2TRCXFGYTICUENZG7PELDZVQ5XS4OVAVZK4KBWH5Y]
+W53[53LJLQATA34TUZRWPYQJXGRDDZIW4T3MXEQ455VFTASI5PSWXMBNN2R424]
+ZLMX[ZLMXPKLRYPF6MT3VCI5JRTOG6ADFIWBL5D4MGYYYLKHGW6E333K4P4WTVM]
+X6HS[X6HSGRXUPK4O5E6M3KREDXWODVX7OR7XVLGT2565C4INA7SRUAKFRPYVTQ]
+OKRT[OKRT4A5FVHG6PBT7JCFRYRLMC2G6A6UH4PAJH4LUSKKD6H35UIKTFD5OUM]
 
-  %% Counterparties / other addresses seen in this dataset
-  W_53LJ["WALLET\n53LJLQ...R424"]
-  W_ZLMX["WALLET\nZLMXPK...TVM"]
-  W_X6HS["WALLET\nX6HSGR...VTQ"]
-  W_OKRT["WALLET\nOKRT4A...OUM"]
+%% =========================
+%% App node
+%% =========================
+APP2650[APP_2650568591]
 
-  %% Assets / App nodes (only ids shown, no external enrichment)
-  ASA_NUGGET["ASA 2699078351"]
-  ASA_1357["ASA 1357247143"]
-  APP_2650["APP 2650568591\non-completion: noop"]
+%% =========================
+%% Outer application call
+%% =========================
+W53 -->|appl_call| APP2650
 
-  %% --- Txns involving the wallet ---
+%% =========================
+%% Inner transaction
+%% =========================
+ZLMX -->|axfer_100000000_ASA_2699078351| D2Y
 
-  %% (1) App call that produced an inner axfer to D2Y of ASA 2699078351
-  W_53LJ -->|appl\nid: WDXPKG...\nround: 57864417| APP_2650
+%% =========================
+%% Direct transactions
+%% =========================
+X6HS -->|pay_500000| D2Y
+D2Y -->|axfer_0_ASA_2699078351| D2Y
+D2Y -->|axfer_0_ASA_1357247143| D2Y
+D2Y -->|axfer_close_ASA_1357247143| OKRT
+```
 
-  subgraph ITX_WDXPKG["inner-txns exploded\nparent: WDXPKG4... (appl)"]
-    direction TB
-    W_ZLMX -->|axfer 100,000,000\nASA 2699078351\nround: 57864417| W_D2Y
-  end
-
-  %% Show that the inner axfer is about ASA 2699078351
-  ASA_NUGGET --- ITX_WDXPKG
-
-  %% (2) Opt-in / self axfer of ASA 2699078351 (amount 0 to self)
-  W_D2Y -->|axfer 0 (self)\nASA 2699078351\nid: F4J7GQ...\nround: 57864406| W_D2Y
-  ASA_NUGGET --- W_D2Y
-
-  %% (3) Close-out of ASA 1357247143 from D2Y to OKRT (receiver + close-to)
-  W_D2Y -->|axfer close-out\nASA 1357247143\namount 0\nclose-to: OKRT...\nid: HJBPDY...\nround: 57711773| W_OKRT
-  ASA_1357 --- W_OKRT
-
-  %% (4) Opt-in / self axfer of ASA 1357247143 (amount 0 to self)
-  W_D2Y -->|axfer 0 (self)\nASA 1357247143\nid: SWQVME...\nround: 57701775| W_D2Y
-  ASA_1357 --- W_D2Y
-
-  %% (5) Payment into D2Y
-  W_X6HS -->|pay 500,000\nid: QKERON...\nround: 57701769| W_D2Y
