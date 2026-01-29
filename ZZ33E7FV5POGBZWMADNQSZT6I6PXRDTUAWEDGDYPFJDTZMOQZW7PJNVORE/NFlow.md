@@ -1,5 +1,5 @@
 ```mermaid
-%%{init: {'theme':'base', 'themeVariables': {'primaryColor':'#ffffff','primaryTextColor':'#000000','primaryBorderColor':'#000000','lineColor':'#000000','secondaryColor':'#ffffff','tertiaryColor':'#ffffff','fontSize':'14px'}}}%%
+%%{init: {'theme':'base', 'themeVariables': {'primaryColor':'#ffffff','primaryTextColor':'#000000','primaryBorderColor':'#000000','lineColor':'#ff0000','secondaryColor':'#ffffff','tertiaryColor':'#ffffff','fontSize':'14px'}}}%%
 flowchart TD
     Start["January 16, 2026<br/>21:10:57 UTC"]
     
