@@ -1,8 +1,0 @@
-```mermaid
-flowchart LR
-
-Z5CI["2Z5CICE4…EN7TY"]
-W77B["77BZUHKV…IBHTU"]
-
-Z5CI -- "2,000,000 NUGGET" --> W77B
-```
