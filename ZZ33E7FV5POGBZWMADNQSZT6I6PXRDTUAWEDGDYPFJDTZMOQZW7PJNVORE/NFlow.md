@@ -1,3 +1,4 @@
+```mermaid
 %%{init: {'theme':'base', 'themeVariables': {'primaryColor':'#ffffff','primaryTextColor':'#000000','primaryBorderColor':'#000000','lineColor':'#000000','secondaryColor':'#ffffff','tertiaryColor':'#ffffff','fontSize':'14px'}}}%%
 flowchart TD
     Start["January 16, 2026<br/>21:10:57 UTC"]
@@ -43,3 +44,4 @@ flowchart TD
     style End fill:#ffe6e6,stroke:#000000,stroke-width:2px,color:#000000
     style Wait1 fill:#f5f5f5,stroke:#000000,stroke-width:1px,color:#000000
     style Wait2 fill:#f5f5f5,stroke:#000000,stroke-width:1px,color:#000000
+```
