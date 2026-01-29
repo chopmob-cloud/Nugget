@@ -1,4 +1,5 @@
-graph TD
+```mermaid
+flowchart LR
 
     SRC["ZVLRVYQSLJNVFMOIOKT35XH5SNQG45IVFMLLRFLHDQJQA5TO5H3SO4TVDQ<br/>NUGGET Distributor"]
 
@@ -8,3 +9,4 @@ graph TD
 
     SRC -->|Repeated axfer<br/>ASA 2699078351| WALLET
     WALLET -->|axfer 212,000,000<br/>ASA 2699078351| OUT
+```
