@@ -1,8 +1,16 @@
   🎨 NFT CREATED: 748182058
+
+  
   🎨 NFT CREATED: 798838964
+
+  
   🎨 NFT CREATED: 798839733
+
+  
   🎨 NFT CREATED: 720514341
+
+  
   🎨 NFT CREATED: 720514819
-\n
+
 
 https://explorer.perawallet.app/asset/3296414402/
