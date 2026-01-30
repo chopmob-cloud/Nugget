@@ -7,7 +7,7 @@ flowchart LR
     class ZVLRVYQSLJNVFMOIOKT35XH5SNQG45IVFMLLRFLHDQJQA5TO5H3SO4TVDQ wallet
     class 2RXI2P2WQUAEP7TWZCHCJ7ACWXBB6BS3Z2NQKU4QFY7CUKNRXQRNYTJZJA wallet
 
-    classDef wallet fill:#ffffff,stroke:#000000,color:#000000,font-size:16px;
+    classDef wallet fill:#ffffff,stroke:#000000,color:#000000,font-size:20px;
     linkStyle 0 stroke:#ff0000,stroke-width:2px;
     linkStyle 1 stroke:#ff0000,stroke-width:2px;
 ```
@@ -21,7 +21,7 @@ flowchart LR
     class U2BCXG737JS4IKUMHKSHR2DOEV7N7AXAG4EFMEO7FOEO5NBD7LKQSLWR6E wallet
     class IE47AFKHJRNQK6GA5RTDJT6SOBIIZLHGOGVWDZY5BF6ELB2FBIKUSGWOKU wallet
 
-    classDef wallet fill:#ffffff,stroke:#000000,color:#000000,font-size:16px;
+    classDef wallet fill:#ffffff,stroke:#000000,color:#000000,font-size:20px;
     linkStyle 0 stroke:#ff0000,stroke-width:2px;
     linkStyle 1 stroke:#ff0000,stroke-width:2px;
 ```
