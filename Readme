@@ -15,7 +15,7 @@ This is purely to make people aware of the activities of some members in relatio
 This list of wallets is growing everyday and watchers are now built to ensure we get new addresses or ASA transfers:
 
 ```mermaid
-graph TD
+Flow TD
     W1["#19 - armitage.ipt.algo<br/>-178,007,238"]
     W2["#40 - 23,456,205 NUGGET<br/>38.2M"]
     W3["#13 - 1,000,000,000 NU...<br/>1000.0M"]
